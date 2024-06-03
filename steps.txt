@@ -1,0 +1,21 @@
+configuração da conta local do GIT:
+git config --global user.name mandinha2108
+git config --global user.email amafur8@gmail.com
+
+npx create-expo-app@latest FramaToDoList --template blank
+
+entrar na pasta do projeto: 
+cd FramaToDoList
+
+npm i
+
+EXPO ROUTER
+npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
+
+Configurar o Router:
+    -package.json
+    -app.json
+
+npx expo start --localhost --android
+
+npx expo install @react-native-async-storage/async-storage
