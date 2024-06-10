@@ -11,7 +11,7 @@ export const styles = StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center',
-        backgroundColor:'#000000c0'
+        backgroundColor:'#d4aeae'
     },
     itemToBuy: {
         color: '#fff',
@@ -28,7 +28,6 @@ export const styles = StyleSheet.create({
     actionIcon:{
         height:40,
         width: 40,
-        backgroundColor: 'darkgreen',
         justifyContent: 'center',
         alignItems: 'center',
         marginLeft: 10,

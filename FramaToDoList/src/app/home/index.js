@@ -100,10 +100,10 @@ export default function Home() {
     }])
  }
   return (
-    <SafeAreaView style={{ flex: 1 }}>
+    <SafeAreaView style={{ flex: 1, color:"#fff" }}>
       <ImageBackground
         source={require('../../assets/background.png')}
-        resizeMode='repeat'
+        resizeMode='norepeat'
         style={{ flex: 1, justifyContent: 'flex-start' }}
       >
         <View style={styles.header}>
@@ -130,7 +130,7 @@ export default function Home() {
             <TextInput 
               color= '#fff'
               fontSize={18}
-              placeholderTextColor='#aeaeae'
+              placeholderTextColor='#fff'
               placeholder='Digite a tarefa...'
               value={textInput}
               onChangeText={(text) => setTextInput(text)}
@@ -142,7 +142,7 @@ export default function Home() {
         </View>
 
       </ImageBackground>
-      <StatusBar style="light" backgroundColor='#F2DCE2' />
+      <StatusBar style="light" backgroundColor='#d4aeae' />
     </SafeAreaView>
   )
 }

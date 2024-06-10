@@ -12,13 +12,13 @@ export default function Welcome() {
          />
       </View>
       <View style={styles.content}>
-         <Text style={styles.title}>Frama To Do List</Text>
+         <Text style={styles.title}>𝓕𝓻𝓪𝓶𝓪 𝓣𝓸 𝓓𝓸 𝓛𝓲𝓼𝓽</Text>
          <Text style={styles.text}>Monte sua lista de tarefas e tenha um melhor controle da sua rotina!! </Text>
         <Link style={styles.button} href={"/home"}>
           <Text style={styles.buttonText}>Acessar</Text>
         </Link>
       </View>
-      <StatusBar style="light" backgroundColor='#000' />
+      <StatusBar style="light" backgroundColor='#D9B0B7' />
     </View>
   );
 }
@@ -56,10 +56,11 @@ const styles = StyleSheet.create({
   text:{
     color: 'gray',
     fontSize:16,
+    textAlign: 'center'
   },
   button:{
     position:'absolute',
-    backgroundColor:'#000',
+    backgroundColor:'#D9B0B7',
     borderRadius: 50,
     bottom:'15%',
     paddingVertical:15,
